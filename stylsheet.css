@@ -1,0 +1,89 @@
+.button, button, .button-picture {
+  font-family: Arial, Helvetica, Sans-serif;
+  border: none;   /*   рамка вокруг ссылок */
+  color: black;
+  padding: 15px 32px; /* Поля вокруг текста */
+  text-align: center;
+  text-decoration: none; /* Скрываем подчёркивание */
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  background-color:grey;
+  border-radius: 10px;
+}
+.button:hover {
+    background-color:pink;   /*  рамка при наведении курсора на ссылку */
+
+}
+button:hover {
+background-color:pink;           /*  рамка при наведении курсора на ссылку */
+}
+
+.button-picture:hover {
+background-color:pink;      /*  рамка при наведении курсора на ссылку */
+}
+
+a{
+text-decoration: none;
+color: #000 !important;   /*  Цвет текста в ссылке */
+}
+
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+.flex-container-center-picture{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+}
+
+.flex-container-center-global{
+    display: flex;
+    justify-content: left;
+    height: 800px;
+    align-items: center;
+}
+
+
+
+.img{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
+}
+
+.top-button {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+input {
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 8px;
+    padding: 16px;
+    width: 400px;
+    margin: 10px;
+}
+
+.button-picture{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  }
+
+.button-picture-search{
+padding: 15px 115px;
+}
